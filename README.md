@@ -6,11 +6,11 @@ Gem Stones co ltd is a cubic zirconia manufacturer (which is an inexpensive diam
    Six columns are float type, two columns are int type and three columns are object type. 
    From the  data, it is evident that no null values are present in the data. 
    
-   Using the describe() function in Python, a summary of all the parameters can be obtained.
-   Using the .duplicated() function, it is found that the given dataset has no duplicate values.
-   Using the .shape() function, we get to know that (26967, 11) rows and columns are present in the data respectively.
-   Using the .isnull.sum() function, it can be concluded that only the column ‘depth’ has total 697 null values and the rest of the cells don’t have any null values.
-   Using the .nuinque() function, we found the number of unique values in each column of the dataset.
+   -Using the describe() function in Python, a summary of all the parameters can be obtained.
+   -Using the .duplicated() function, it is found that the given dataset has no duplicate values.
+   -Using the .shape() function, we get to know that (26967, 11) rows and columns are present in the data respectively.
+   -Using the .isnull.sum() function, it can be concluded that only the column ‘depth’ has total 697 null values and the rest of the cells don’t have any null values.
+   -Using the .nuinque() function, we found the number of unique values in each column of the dataset.
 
    We have both categorical and continuous data. For categorical data we have cut, colour and clarity
    For continuous data we have carat, depth, table, x. y, z and price.
